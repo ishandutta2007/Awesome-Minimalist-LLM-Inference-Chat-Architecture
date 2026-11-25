@@ -65,7 +65,7 @@ The global AI inference market is estimated at **$103B–$113B in 2025** and pro
 
 ## 💻 Open-Source GitHub Projects
 
-*Sorted in descending order by GitHub Stars.*
+*Sorted in descending order by GitHub_Stars.*
 
 - **[ollama/ollama](https://github.com/ollama/ollama)** [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
   The most popular open-source local LLM runtime and REST API server offering one-command model pulls, Modelfile customization, GPU offloading, and clean CLI/desktop chat.
