@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#07090e" />
+    </linearGradient>
+
+    <!-- Glowing Accents -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .tech-token {
+        font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+        font-size: 13px;
+        fill: #94a3b8;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        fill: #ffffff;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        fill: #94a3b8;
+      }
+      .brand-highlight {
+        fill: url(#primaryGlow);
+      }
+      @keyframes pulseBeam {
+        0%, 100% { opacity: 0.25; transform: scaleX(0.96); }
+        50% { opacity: 0.65; transform: scaleX(1.04); }
+      }
+      @keyframes floatParticle {
+        0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+        50% { transform: translateY(-12px) translateX(8px); opacity: 0.8; }
+        100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      }
+      @keyframes flowCircuit {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .dynamic-beam {
+        animation: pulseBeam 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .dynamic-circuit {
+        stroke-dasharray: 20 15;
+        animation: flowCircuit 12s linear infinite;
+      }
+      .particle-1 { animation: floatParticle 6s ease-in-out infinite; }
+      .particle-2 { animation: floatParticle 8s ease-in-out 1.5s infinite; }
+      .particle-3 { animation: floatParticle 7s ease-in-out 3s infinite; }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Subtle Cyber Grid -->
+  <g opacity="0.08" stroke="#38bdf8" stroke-width="0.75">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Ambient Light Orbs (Behind content) -->
+  <circle cx="200" cy="180" r="140" fill="#38bdf8" opacity="0.12" filter="url(#neonBlur)" class="dynamic-beam" />
+  <circle cx="980" cy="160" r="150" fill="#a855f7" opacity="0.1" filter="url(#neonBlur)" class="dynamic-beam" />
+
+  <!-- Animated Data Flow Lines (Dynamic Background Lines) -->
+  <g fill="none" opacity="0.4" stroke-width="1.5">
+    <path d="M 50 80 Q 300 20 600 80 T 1150 80" stroke="#38bdf8" class="dynamic-circuit" />
+    <path d="M 50 290 Q 400 350 750 280 T 1150 290" stroke="#818cf8" class="dynamic-circuit" />
+  </g>
+
+  <!-- Floating Ambient Particles -->
+  <circle cx="140" cy="100" r="3.5" fill="#38bdf8" class="particle-1" />
+  <circle cx="1060" cy="90" r="3" fill="#818cf8" class="particle-2" />
+  <circle cx="1110" cy="240" r="4" fill="#c084fc" class="particle-3" />
+  <circle cx="90" cy="270" r="3" fill="#38bdf8" class="particle-2" />
+
+  <!-- Content Header Pill -->
+  <g transform="translate(425, 48)">
+    <rect width="350" height="32" rx="16" fill="url(#badgeGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+    <circle cx="18" cy="16" r="4" fill="#34d399" />
+    <text x="32" y="21" class="tech-token" fill="#38bdf8" font-weight="600">⚡ ZERO-BLOAT • HIGH-THROUGHPUT</text>
+  </g>
+
+  <!-- Foreground Main Title -->
+  <g transform="translate(600, 138)" text-anchor="middle">
+    <text class="title-text">
+      Minimalist <tspan class="brand-highlight">LLM Inference</tspan> &amp; Chat Architecture
+    </text>
+  </g>
+
+  <!-- Foreground Subtitle -->
+  <g transform="translate(600, 180)" text-anchor="middle">
+    <text class="subtitle-text">
+      Curated Ecosystem of Clean C/C++/Rust Runtimes, Hackable Training Harms &amp; Local Chat Frontends
+    </text>
+  </g>
+
+  <!-- Tech Stack Pills Row (Foreground) -->
+  <g transform="translate(180, 225)">
+    <!-- Pill 1: llama.cpp -->
+    <g transform="translate(0, 0)">
+      <rect width="130" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="65" y="24" text-anchor="middle" class="tech-token" fill="#f8fafc" font-weight="600">llama.cpp</text>
+    </g>
+
+    <!-- Pill 2: Ollama -->
+    <g transform="translate(145, 0)">
+      <rect width="115" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="57" y="24" text-anchor="middle" class="tech-token" fill="#f8fafc" font-weight="600">Ollama</text>
+    </g>
+
+    <!-- Pill 3: vLLM -->
+    <g transform="translate(275, 0)">
+      <rect width="110" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="55" y="24" text-anchor="middle" class="tech-token" fill="#f8fafc" font-weight="600">vLLM</text>
+    </g>
+
+    <!-- Pill 4: SGLang -->
+    <g transform="translate(400, 0)">
+      <rect width="115" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="57" y="24" text-anchor="middle" class="tech-token" fill="#f8fafc" font-weight="600">SGLang</text>
+    </g>
+
+    <!-- Pill 5: Apple MLX -->
+    <g transform="translate(530, 0)">
+      <rect width="130" height="38" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="65" y="24" text-anchor="middle" class="tech-token" fill="#f8fafc" font-weight="600">Apple MLX</text>
+    </g>
+
+    <!-- Pill 6: nanochat -->
+    <g transform="translate(675, 0)">
+      <rect width="145" height="38" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.8" />
+      <text x="72" y="24" text-anchor="middle" class="tech-token" fill="#38bdf8" font-weight="700">nanochat</text>
+    </g>
+  </g>
+
+  <!-- Bottom Terminal Status Bar -->
+  <g transform="translate(260, 290)">
+    <text class="tech-token" fill="#64748b">
+      <tspan fill="#34d399">●</tspan> local-first <tspan fill="#475569">|</tspan>
+      <tspan fill="#38bdf8">◆</tspan> bit-perfect quantization <tspan fill="#475569">|</tspan>
+      <tspan fill="#818cf8">▲</tspan> zero-Python C/Rust core <tspan fill="#475569">|</tspan>
+      <tspan fill="#f59e0b">★</tspan> high-throughput serving
+    </text>
+  </g>
+</svg>

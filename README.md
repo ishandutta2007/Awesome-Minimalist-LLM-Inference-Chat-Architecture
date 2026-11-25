@@ -1,46 +1,54 @@
-# Awesome-Minimalist-LLM-Inference-Chat-Architecture
+# ⚡ Awesome-Minimalist-LLM-Inference-Chat-Architecture
 
-## Top Minimalist LLM Inference & Chat Architecture Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Minimalist LLM Inference and Chat Architecture Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture?style=social&color=white" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture?style=social&color=white" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture?style=flat-square" alt="Issues" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Top Minimalist LLM Inference & Chat Architecture Ecosystem
 
 **Curated List of SaaS/Commercial Platforms & Open-Source GitHub Projects**  
-
 *Focused on Minimalist Full-Stack LLM Harnesses (`nanochat`), Lightweight C/C++/Rust Inference Engines, Local Chat Frontends & High-Throughput Serving Runtimes*  
-
 **Last updated: November 2026**
-
-
 
 This repository tracks notable **SaaS/commercial platforms** and **open-source projects** for **Minimalist LLM Inference & Chat Architecture**. These tools strip away bloated abstraction layers to deliver clean, hackable end-to-end LLM training-to-chat pipelines (`nanochat`), zero-dependency C/C++/Rust inference engines (`llama.cpp`, `Candle`, `MLX`), ultra-lightweight chat web/CLI interfaces, and high-throughput GPU serving engines.
 
-
-
-**Examples** include Ollama, LM Studio, Jan.ai, LocalAI, Text Generation WebUI, llama.cpp, vLLM, Aphrodite Engine, KoboldAI, Exo, and `karpathy/nanochat` (the category leaders). 
-
-
+**Examples** include Ollama, LM Studio, Jan.ai, LocalAI, Text Generation WebUI, llama.cpp, vLLM, Aphrodite Engine, KoboldAI, Exo, and `karpathy/nanochat` (the category leaders).
 
 **Open-source emphasis**: This section is heavily expanded with every major active project for minimalist from-scratch LLM chat architectures (`nanochat`, `llm.c`, `llama2.c`), lean inference engines (`llama.cpp`, `vLLM`, `SGLang`, `MLX`), and fast, dependency-minimal chat frontends (`Open WebUI`, `LibreChat`, `aichat`, `Chatbox`) — ideal for AI researchers, systems hackers, self-hosters, and minimalist software engineers.
 
-
-
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
+---
 
+## 📑 Table of Contents
 
-## Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Commercial Platforms](#️-saascommercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 Support](#-support)
+- [📈 Star History](#-star-history)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Commercial Platforms](#saascommercial-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global AI inference market is estimated at **$103B–$113B in 2025** and projected to exceed **$117B–$133B in 2026**, expanding rapidly as enterprise generative AI moves from training to production. The market dynamics exhibit a barbell structure: highly concentrated and capital-intensive at the foundational hardware and hyperscale compute layer (dominated by NVIDIA and CSPs), but moderately-to-highly fragmented across inference routing, model serving runtimes, and local/desktop chat frontend applications where niche performance optimizations and UI ergonomics thrive.
 
-## SaaS/Commercial Platforms
+---
+
+## ☁️ SaaS/Commercial Platforms
 
 | Platform | Valuation / Revenue Scale | Pricing (Starting Tier) | Free Tier Limits / Free Trial | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,170 +61,136 @@ The global AI inference market is estimated at **$103B–$113B in 2025** and pro
 | **[TypingMind](https://typingmind.com)** | **$1.5M–$2.0M ARR** (Bootstrapped / profitable indie business) | $39 one-time lifetime license (Standard personal plan; Teams plan from $99/month) | Free web tier: basic BYOK chat interface, but chat history is not saved locally/synced and advanced features (Artifacts, Canvas, Plugins) are restricted | Clean, client-side web and desktop chat frontend connecting to local Ollama/LM Studio servers and cloud LLM APIs with prompt libraries and folders. |
 | **[Msty](https://msty.app)** | **Bootstrapped** (Private indie venture, self-funded) | $149/year or $349 one-time lifetime (Aurum commercial license; required for business/workplace usage) | Free forever tier: strictly for personal, non-commercial use only (includes local/API chat, local RAG knowledge stacks, and split chats) | Commercial-friendly local-first desktop AI chat studio supporting offline GGUF models, Ollama integration, split chats, and local RAG knowledge stacks. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+*Sorted in descending order by GitHub Stars.*
 
+- **[ollama/ollama](https://github.com/ollama/ollama)** [![Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+  The most popular open-source local LLM runtime and REST API server offering one-command model pulls, Modelfile customization, GPU offloading, and clean CLI/desktop chat.
 
-## Open-Source GitHub Projects
+- **[open-webui/open-webui](https://github.com/open-webui/open-webui)** [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+  Feature-rich, self-hosted open-source web chat interface built for Ollama and OpenAI-compatible backends with offline PWA support, RAG, Web search, and multi-model arenas.
 
-
-
-- **[karpathy/nanochat](https://github.com)**  
-
-  Minimalist, clean, full-stack open-source LLM repository by Andrej Karpathy covering the entire pipeline from tokenization, pretraining, and midtraining/SFT to RL and a web chat UI in readable, hackable code.
-
-
-
-- **[llama.cpp](https://github.com)**  
-
+- **[ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)** [![Stars](https://img.shields.io/github/stars/ggml-org/llama.cpp?style=social&color=white)](https://github.com/ggml-org/llama.cpp/stargazers)  
   The foundational, dependency-minimal open-source C/C++ LLM inference engine and built-in `llama-server` web chat UI supporting CPU, CUDA, Metal, Vulkan, and ROCm.
 
-
-
-- **[Ollama](https://github.com)**  
-
-  The most popular open-source local LLM runtime and REST API server offering one-command model pulls, Modelfile customization, and clean CLI/desktop chat.
-
-
-
-- **[vLLM](https://github.com)**  
-
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** [![Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
   High-throughput, memory-efficient open-source LLM inference and serving engine powered by PagedAttention and continuous batching.
 
+- **[lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)** [![Stars](https://img.shields.io/github/stars/lobehub/lobe-chat?style=social&color=white)](https://github.com/lobehub/lobe-chat/stargazers)  
+  Modern, open-source AI chat workspace and super-agent framework supporting multi-modal models, local Ollama endpoints, visual plugin ecosystem, and mobile PWA.
 
+- **[karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)** [![Stars](https://img.shields.io/github/stars/karpathy/nanoGPT?style=social&color=white)](https://github.com/karpathy/nanoGPT/stargazers)  
+  The simplest, fastest repository for training and finetuning medium-sized GPTs by Andrej Karpathy, prioritizing radical clarity and pedagogical minimalism in ~300 lines of PyTorch.
 
-- **[SGLang](https://github.com)**  
+- **[karpathy/nanochat](https://github.com/karpathy/nanochat)** [![Stars](https://img.shields.io/github/stars/karpathy/nanochat?style=social&color=white)](https://github.com/karpathy/nanochat/stargazers)  
+  Minimalist, clean, full-stack open-source LLM repository by Andrej Karpathy covering the entire pipeline from tokenization, pretraining, and midtraining/SFT to RL and a web chat UI in readable, hackable code.
 
-  Ultra-fast open-source serving framework for large language and vision-language models featuring RadixAttention prefix caching and zero-overhead structured decoding.
+- **[mudler/LocalAI](https://github.com/mudler/LocalAI)** [![Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)  
+  Drop-in open-source OpenAI-compatible local inference server running LLMs, embeddings, TTS, STT, and image models on consumer CPU/GPU hardware without cloud dependencies.
 
+- **[exo-explore/exo](https://github.com/exo-explore/exo)** [![Stars](https://img.shields.io/github/stars/exo-explore/exo?style=social&color=white)](https://github.com/exo-explore/exo/stargazers)  
+  Open-source peer-to-peer distributed inference engine uniting everyday devices (Macs, Linux PCs, phones) over LAN to shard and run large LLMs collaboratively.
 
-
-- **[Aphrodite Engine (PygmalionAI)](https://github.com)**  
-
-  High-throughput open-source inference engine built on vLLM with extensive quantization support (`EXL2`, `AWQ`, `GPTQ`, `GGUF`, `FP8`) and sampler options for chat and creative workloads.
-
-
-
-- **[Jan (`janhq/jan`)](https://github.com)**  
-
-  Open-source, offline-first ChatGPT desktop alternative powered by `llama.cpp` with a clean interface, local OpenAI-compatible API server, and zero telemetry.
-
-
-
-- **[Text Generation WebUI (`oobabooga/text-generation-webui`)](https://github.com)**  
-
+- **[oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)** [![Stars](https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=social&color=white)](https://github.com/oobabooga/text-generation-webui/stargazers)  
   Modular open-source Gradio web interface supporting `llama.cpp`, `Transformers`, `ExLlamaV2`, `TensorRT-LLM`, and character/instruct chat modes.
 
-
-
-- **[KoboldCpp (`LostRuins/koboldcpp`)](https://github.com)**  
-
-  Single-file, zero-install open-source C/C++ executable built on `llama.cpp` bundling a rich local chat/storytelling UI (`KoboldAI Lite`), image generation, and OpenAI-compatible APIs.
-
-
-
-- **[LocalAI](https://github.com)**  
-
-  Drop-in open-source OpenAI-compatible local inference server running LLMs, embeddings, TTS, STT, and image models on consumer CPU/GPU hardware.
-
-
-
-- **[Exo (`exo-explore/exo`)](https://github.com)**  
-
-  Open-source peer-to-peer distributed inference engine uniting everyday devices (Macs, Linux PCs, phones) over LAN to shard and run large LLMs together.
-
-
-
-- **[Open WebUI](https://github.com)**  
-
-  Feature-rich, self-hosted open-source web chat interface built for Ollama and OpenAI-compatible backends with offline PWA support, RAG, and multi-model arenas.
-
-
-
-- **[LibreChat](https://github.com)**  
-
+- **[LibreChat-AI/LibreChat](https://github.com/LibreChat-AI/LibreChat)** [![Stars](https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=social&color=white)](https://github.com/LibreChat-AI/LibreChat/stargazers)  
   Sleek, open-source ChatGPT clone supporting local `llama.cpp`/Ollama endpoints alongside cloud providers, artifacts, code interpreter, and MCP tools.
 
+- **[janhq/jan](https://github.com/janhq/jan)** [![Stars](https://img.shields.io/github/stars/janhq/jan?style=social&color=white)](https://github.com/janhq/jan/stargazers)  
+  Open-source, offline-first ChatGPT desktop alternative powered by `llama.cpp` with a clean interface, local OpenAI-compatible API server, and zero telemetry.
 
+- **[chatboxai/chatbox](https://github.com/chatboxai/chatbox)** [![Stars](https://img.shields.io/github/stars/chatboxai/chatbox?style=social&color=white)](https://github.com/chatboxai/chatbox/stargazers)  
+  Polished, cross-platform open-source desktop and mobile AI chat client connecting directly to local Ollama, `llama-server`, and OpenAI-compatible inference backends.
 
-- **[AIChat (`sigoden/aichat`)](https://github.com)**  
+- **[sgl-project/sglang](https://github.com/sgl-project/sglang)** [![Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
+  Ultra-fast open-source serving framework for large language and vision-language models featuring RadixAttention prefix caching and zero-overhead structured decoding.
 
-  All-in-one, blazing-fast open-source CLI LLM chat tool written in Rust supporting REPL mode, shell assistant, local RAG, and 20+ local/cloud providers.
+- **[karpathy/llm.c](https://github.com/karpathy/llm.c)** [![Stars](https://img.shields.io/github/stars/karpathy/llm.c?style=social&color=white)](https://github.com/karpathy/llm.c/stargazers)  
+  Ultra-minimalist, pure C/CUDA open-source LLM training and inference implementation in clean, dependency-free code without PyTorch bloat.
 
-
-
-- **[llm.c & llama2.c (Andrej Karpathy)](https://github.com)**  
-
-  Ultra-minimalist, pure C/CUDA open-source LLM training and inference reference implementations (`llama2.c` runs Llama 2 inference in ~700 lines of dependency-free C).
-
-
-
-- **[Candle (Hugging Face)](https://github.com)**  
-
-  Minimalist open-source machine learning framework for Rust engineered for serverless, lightweight, zero-Python LLM inference on CPU, CUDA, Metal, and WebAssembly.
-
-
-
-- **[Apple MLX & `mlx-lm`](https://github.com)**  
-
+- **[ml-explore/mlx](https://github.com/ml-explore/mlx)** [![Stars](https://img.shields.io/github/stars/ml-explore/mlx?style=social&color=white)](https://github.com/ml-explore/mlx/stargazers)  
   Clean, NumPy-like open-source array framework from Apple ML Research delivering peak local LLM inference and fine-tuning throughput on Apple Silicon unified memory.
 
+- **[mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile)** [![Stars](https://img.shields.io/github/stars/mozilla-ai/llamafile?style=social&color=white)](https://github.com/mozilla-ai/llamafile/stargazers)  
+  Open-source project by Mozilla Ocho packaging `llama.cpp` and model weights into a single cross-platform, double-clickable cosmopolitan executable with an embedded chat UI.
 
+- **[huggingface/candle](https://github.com/huggingface/candle)** [![Stars](https://img.shields.io/github/stars/huggingface/candle?style=social&color=white)](https://github.com/huggingface/candle/stargazers)  
+  Minimalist open-source machine learning framework for Rust engineered for serverless, lightweight, zero-Python LLM inference on CPU, CUDA, Metal, and WebAssembly.
 
-### Additional Strong Open-Source Options
+- **[karpathy/llama2.c](https://github.com/karpathy/llama2.c)** [![Stars](https://img.shields.io/github/stars/karpathy/llama2.c?style=social&color=white)](https://github.com/karpathy/llama2.c/stargazers)  
+  Inference Llama 2 architecture in ~700 lines of pure, dependency-free C with zero external packages or bloat.
 
+- **[LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp)** [![Stars](https://img.shields.io/github/stars/LostRuins/koboldcpp?style=social&color=white)](https://github.com/LostRuins/koboldcpp/stargazers)  
+  Single-file, zero-install open-source C/C++ executable built on `llama.cpp` bundling a rich local chat/storytelling UI (`KoboldAI Lite`), image generation, and OpenAI-compatible APIs.
 
+- **[sigoden/aichat](https://github.com/sigoden/aichat)** [![Stars](https://img.shields.io/github/stars/sigoden/aichat?style=social&color=white)](https://github.com/sigoden/aichat/stargazers)  
+  All-in-one, blazing-fast open-source CLI LLM chat tool written in Rust supporting REPL mode, shell assistant, local RAG, and 20+ local/cloud providers.
 
-- **[ExLlamaV2 / TabbyAPI](https://github.com)** for ultra-fast open-source EXL2 quantized inference and an OpenAI-compatible API server on NVIDIA GPUs.
+- **[ml-explore/mlx-lm](https://github.com/ml-explore/mlx-lm)** [![Stars](https://img.shields.io/github/stars/ml-explore/mlx-lm?style=social&color=white)](https://github.com/ml-explore/mlx-lm/stargazers)  
+  Python package built directly on Apple MLX for generating, converting, quantizing, and serving open LLMs locally with high speed on Apple Silicon.
 
-- **[llamafile (Mozilla Ocho)](https://github.com)** for packaging `llama.cpp` and model weights into a single cross-platform, double-clickable executable with an embedded chat UI.
+- **[turboderp-org/exllamav2](https://github.com/turboderp-org/exllamav2)** [![Stars](https://img.shields.io/github/stars/turboderp-org/exllamav2?style=social&color=white)](https://github.com/turboderp-org/exllamav2/stargazers)  
+  Ultra-fast open-source inference library specifically crafted for running quantized EXL2 language models on modern consumer-class NVIDIA GPUs.
 
-- **[Chatbox](https://github.com)** and **[LobeChat](https://github.com)** for polished, cross-platform open-source desktop/web chat clients connecting cleanly to local Ollama or `llama-server` endpoints.
+- **[ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp)** [![Stars](https://img.shields.io/github/stars/ikawrakow/ik_llama.cpp?style=social&color=white)](https://github.com/ikawrakow/ik_llama.cpp/stargazers)  
+  High-performance open-source `llama.cpp` fork featuring cutting-edge IQ quantization formats and CPU/hybrid MoE inference speedups.
 
-- **[ik_llama.cpp](https://github.com)** for an advanced open-source `llama.cpp` fork featuring cutting-edge IQ quantization formats and CPU/hybrid MoE inference speedups.
+- **[dphnAI/sonar](https://github.com/dphnAI/sonar)** [![Stars](https://img.shields.io/github/stars/dphnAI/sonar?style=social&color=white)](https://github.com/dphnAI/sonar/stargazers)  
+  High-throughput open-source inference engine (formerly Aphrodite Engine) built on vLLM with extensive quantization support (`EXL2`, `AWQ`, `GPTQ`, `GGUF`, `FP8`) and creative samplers.
 
-- Many community **single-file Python/Rust/Go OpenAI-compatible chat UIs**, **systemd/Docker `llama-server` templates**, and **GGUF quantization calculators**.
-
-
-
-**Frameworks for building custom systems**: Combine **karpathy/nanochat** (minimalist full-stack architecture), **llama.cpp / MLX / vLLM** (inference runtime), **Ollama** (model management), and **Open WebUI / AIChat** (web or terminal chat UI) for a fast, transparent, zero-bloat LLM stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Exposing local inference servers (`llama-server`, `Ollama`, `vLLM`, `Open WebUI`) on `0.0.0.0` without authentication or firewall rules allows anyone on your network or the public internet to consume your GPU compute or read chat histories; always bind to `127.0.0.1` or place behind an authenticated reverse proxy.
-
-- Always verify SHA-256 checksums and prefer safe serialization formats (`Safetensors`, `GGUF`) over arbitrary Python `pickle` checkpoints when downloading open-weights models.
-
-
+- **[theroyallab/tabbyAPI](https://github.com/theroyallab/tabbyAPI)** [![Stars](https://img.shields.io/github/stars/theroyallab/tabbyAPI?style=social&color=white)](https://github.com/theroyallab/tabbyAPI/stargazers)  
+  Official lightweight OpenAI-compatible API server powered by ExLlamaV2, providing blazingly fast local inference and low VRAM footprint.
 
 ---
 
+### 💡 Frameworks for Building Custom Systems
 
+Combine **karpathy/nanochat** (minimalist full-stack architecture), **llama.cpp / MLX / vLLM** (inference runtime), **Ollama** (model management), and **Open WebUI / AIChat** (web or terminal chat UI) for a fast, transparent, zero-bloat LLM stack.
 
-**Made for AI researchers, systems hackers, self-hosters, and minimalist software engineers.**  
+---
 
-Let's make LLM inference and chat architectures cleaner, faster, and open.
+## 🤝 Support
+
+Thank you for exploring this curated repository! If you find this guide helpful, please consider:
+- ⭐ **Starring** the repository on GitHub
+- 🍴 **Forking** and contributing your own improvements
+- 📢 **Sharing** with friends, colleagues, and community forums
+
+Your encouragement and contributions keep this directory up-to-date with the fast-evolving minimalist LLM inference landscape!
+
+☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance and open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture&type=date&legend=top-left)  
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Minimalist-LLM-Inference-Chat-Architecture&type=date&legend=top-left)
+
+---
+
+## 🛠️ How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow the existing format and tables).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
+4. Submit a PR with a short explanation.
+
+Star the repo if you find it useful!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Exposing local inference servers (`llama-server`, `Ollama`, `vLLM`, `Open WebUI`) on `0.0.0.0` without authentication or firewall rules allows anyone on your network or the public internet to consume your GPU compute or read chat histories; always bind to `127.0.0.1` or place behind an authenticated reverse proxy.
+- Always verify SHA-256 checksums and prefer safe serialization formats (`Safetensors`, `GGUF`) over arbitrary Python `pickle` checkpoints when downloading open-weights models.
+
+---
+
+**Made with ❤️ for AI researchers, systems hackers, self-hosters, and minimalist software engineers.**  
+*Let's make LLM inference and chat architectures cleaner, faster, and open.*
