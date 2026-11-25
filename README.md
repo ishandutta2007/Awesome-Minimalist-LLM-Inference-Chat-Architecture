@@ -30,65 +30,28 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Commercial Platforms](#saascommercial-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global AI inference market is estimated at **$103B–$113B in 2025** and projected to exceed **$117B–$133B in 2026**, expanding rapidly as enterprise generative AI moves from training to production. The market dynamics exhibit a barbell structure: highly concentrated and capital-intensive at the foundational hardware and hyperscale compute layer (dominated by NVIDIA and CSPs), but moderately-to-highly fragmented across inference routing, model serving runtimes, and local/desktop chat frontend applications where niche performance optimizations and UI ergonomics thrive.
 
-## SaaS/Hosted Platforms
+## SaaS/Commercial Platforms
 
-
-
-- **[LM Studio](https://lmstudio.ai)**  
-
-  Commercial-friendly desktop local LLM runner, GGUF/MLX model browser, and OpenAI-compatible local server featuring a clean chat UI and zero-config hardware acceleration.
-
-
-
-- **[GroqCloud](https://groq.com)**  
-
-  Ultra-low-latency LPU inference cloud delivering near-instant token generation for open-weights LLMs via an OpenAI-compatible REST API.
-
-
-
-- **[Together AI](https://together.ai)**  
-
-  Cloud inference and fine-tuning platform hosting fast, quantized and full-precision open-weights chat models with serverless and dedicated endpoints.
-
-
-
-- **[Fireworks AI](https://fireworks.ai)**  
-
-  High-speed generative AI inference cloud optimized for low-latency open-model serving, structured JSON outputs, and custom LoRA deployment.
-
-
-
-- **[OpenRouter](https://openrouter.ai)**  
-
-  Unified cloud inference router providing a single OpenAI-compatible API endpoint across hundreds of proprietary and open-weights chat models.
-
-
-
-- **[Msty](https://msty.app)**  
-
-  Commercial-friendly local-first desktop AI chat studio supporting offline GGUF models, Ollama integration, split chats, and local RAG knowledge stacks.
-
-
-
-- **[TypingMind](https://typingmind.com)**  
-
-  Clean, client-side web and desktop chat frontend connecting to local Ollama/LM Studio servers and cloud LLM APIs with prompt libraries and folders.
-
-
-
-- **[GPT4All (Nomic AI)](https://nomic.ai)**  
-
-  Privacy-focused desktop chat client and local model ecosystem enabling offline LLM conversations and local document search on consumer hardware.
+| Platform | Valuation / Revenue Scale | Pricing (Starting Tier) | Free Tier Limits / Free Trial | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GroqCloud](https://groq.com)** | **$6.9B Valuation** ($750M Series E, 2025; $90M 2024 revenue / $500M target) | $0.05 / 1M tokens (LPU serverless pay-per-token starting rate for small models) | Free forever tier: 30 requests/min (RPM), 1,000 requests/day (RPD), and 8,000–30,000 tokens/min (TPM) limit per model | Ultra-low-latency LPU inference cloud delivering near-instant token generation for open-weights LLMs via an OpenAI-compatible REST API. |
+| **[Fireworks AI](https://fireworks.ai)** | **$4.0B+ Valuation** ($250M Series C, 2025; later $17.5B in 2026) | $0.10 / 1M tokens (Flash models serverless pay-per-token starting rate) | $1 free trial credits on sign-up (no credit card required; strict RPM rate limits without payment method) | High-speed generative AI inference cloud optimized for low-latency open-model serving, structured JSON outputs, and custom LoRA deployment. |
+| **[Together AI](https://together.ai)** | **$3.3B Valuation** (Series B, 2025; $8.3B Series C in 2026) | $0.10 / 1M tokens (serverless pay-per-token; requires $15 initial minimum prepaid credit purchase) | No permanent free tier or automatic free trial (requires $15 minimum prepaid deposit; free credits available via formal Startup Accelerator application) | Cloud inference and fine-tuning platform hosting fast, quantized and full-precision open-weights chat models with serverless and dedicated endpoints. |
+| **[OpenRouter](https://openrouter.ai)** | **$1.3B–$1.5B Valuation** ($140M–$160M ARR, $166M raised) | $0.00 / 1M tokens (Free-tier models); paid models billed at upstream pass-through + ~5.5% routing fee | Free tier forever on `:free` models: 20 requests/min (RPM) and 50 requests/day (RPD) (increases to 1,000 RPD after $10 lifetime credit deposit) | Unified cloud inference router providing a single OpenAI-compatible API endpoint across hundreds of proprietary and open-weights chat models. |
+| **[LM Studio](https://lmstudio.ai)** | **$102M Valuation** (~$19.3M total venture funding raised) | $0.00 (Free for personal and commercial/enterprise use; custom pricing for LM Studio Bionic/enterprise deployments) | Free forever: 100% full local app and CLI/headless server features with unlimited local chats and tokens (compute limited only by local hardware) | Commercial-friendly desktop local LLM runner, GGUF/MLX model browser, and OpenAI-compatible local server featuring a clean chat UI and zero-config hardware acceleration. |
+| **[GPT4All (Nomic AI)](https://nomic.ai)** | **$100M Valuation** ($17M total venture funding raised by Nomic AI) | $0.00 (GPT4All client is free open-source; Nomic AI cloud platform starts at $20/month for Individual plan) | Free forever: 100% unrestricted offline local chats, LocalDocs embeddings, and model downloads (no token or time limits; runs entirely on-device) | Privacy-focused desktop chat client and local model ecosystem enabling offline LLM conversations and local document search on consumer hardware. |
+| **[TypingMind](https://typingmind.com)** | **$1.5M–$2.0M ARR** (Bootstrapped / profitable indie business) | $39 one-time lifetime license (Standard personal plan; Teams plan from $99/month) | Free web tier: basic BYOK chat interface, but chat history is not saved locally/synced and advanced features (Artifacts, Canvas, Plugins) are restricted | Clean, client-side web and desktop chat frontend connecting to local Ollama/LM Studio servers and cloud LLM APIs with prompt libraries and folders. |
+| **[Msty](https://msty.app)** | **Bootstrapped** (Private indie venture, self-funded) | $149/year or $349 one-time lifetime (Aurum commercial license; required for business/workplace usage) | Free forever tier: strictly for personal, non-commercial use only (includes local/API chat, local RAG knowledge stacks, and split chats) | Commercial-friendly local-first desktop AI chat studio supporting offline GGUF models, Ollama integration, split chats, and local RAG knowledge stacks. |
 
 
 
